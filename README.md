@@ -14,6 +14,11 @@ ITMO App LLM - это проект, разработанный для демон
     ```bash
     cd itmo-app-llm
     ```
+3. Заполните `config.py` своими ключами
+   ```bash
+   sudo nano config.py
+   ```
+   
 3. Соберите Docker контейнер
     ```bash
     docker compose build
